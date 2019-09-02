@@ -44,7 +44,7 @@ iforest = IForest(maxDepth=10
                   , bootstrap=False
                   , approxQuantileRelativeError=0.01
                   #, contamination=0.05
-                  , maxSamples=1000
+                  , maxSamples=100000
                   , maxFeatures=20)
 
 model = iforest.fit(df)
